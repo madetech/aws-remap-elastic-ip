@@ -31,7 +31,7 @@ require 'net/http'
 require 'uri'
 require 'json'
 
-CONFIG = JSON.parse(IO.read('config.json'))
+CONFIG = JSON.parse(IO.read(File.join(File.dirname(__FILE__), 'config.json')))
 INSTANCE_HOST = '169.254.169.254'
 INSTANCE_ID_URL = '/2012-01-12/meta-data/instance-id'
 
