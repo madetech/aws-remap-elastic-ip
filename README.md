@@ -5,7 +5,7 @@ Quick-and-dirty Ruby script that remaps an elastic IP address to the EC2 instanc
 
 ### Usage
 
-1. Use the [Chef installer]()
+1. Use the [Chef installer](https://github.com/madebymade/chef-aws-remap-elastic-ip)
 
 or..
 
@@ -18,4 +18,4 @@ or..
 
 ###License
 
-Licensed under [New BSD License](http://opensource.org/licenses/BSD-3-Clau)
+Licensed under [New BSD License](http://opensource.org/licenses/BSD-3-Clause)
