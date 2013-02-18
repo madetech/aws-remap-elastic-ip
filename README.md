@@ -10,7 +10,7 @@ Quick-and-dirty Ruby script that remaps an elastic IP address to the EC2 instanc
 or..
 
 1. Copy the repository to `/var/lib/aws/remap_ip/`
-2. Copy `upstart.conf` to `/etc/init/aws_remap_ip.conf` and CHMOD to 0760
+2. Copy `upstart.conf` to `/etc/init/aws_remap_ip.conf` and CHMOD to 0644
 3. Edit `config.json` to reflect your environment
 4. Run `gem install bundler` (if you don't already have Bundler on your system)
 5. Run `bundle install` in the `/var/lib/aws/remap_ip/` directory
